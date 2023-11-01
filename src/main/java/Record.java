@@ -42,4 +42,12 @@ public class Record {
     public void setLink(String link) {
         this.link = link;
     }
+
+    @Override
+    public String toString() {
+        return "id - " + id + "\n" +
+                "name - " + name + "\n" +
+                "description - " + description + "\n" +
+                "link - " + link + "\n";
+    }
 }
